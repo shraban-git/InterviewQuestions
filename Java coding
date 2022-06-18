@@ -1,0 +1,46 @@
+public class Employee {
+	private int id;
+	private String FirstName;
+	private String LastName;
+	private double salary;
+  private String departmentId;
+  private String gender;
+  }
+List<Employee> elist=Arrays.asList( new Employee(1,"name1","lastname1", 10.2), new Employee(2,"name2","lastname2", 10.5),
+                                    new Employee(4,"name3","lastname3", 10.1), new Employee(3,"name3","lastname4", 10.1));
+
+1. sort by salary using java8.
+2. sort by salary and Id using java8
+3. Find to highest salaried employee.
+4. Find total salary of employees.
+5. Find total employee based on gender.
+6. find total male and female salary based on departmentid;
+
+String value="HELLO";
+
+1. print repeated characters in string value.
+2. print first non repeated character.
+3. How many times 'L' present in string value.
+
+String sentance="HELLO HOW ARE YOU HONNEY";
+1. find substrig starts with 'HO' , ends with 'NNEY';
+2. find how many times 'HO' present.
+3. Reverse the sentance.
+
+int[] intarrays = { 1, 2, 3, 4, 4, 5, 5, 9 };
+1. print repeated characters in intarrays.
+2. print first non repeated integer.
+3. How many times 'L' present in intarrays.
+4. Find highest no in intarrays.
+5. Find min value in intarrays.
+6. find total sum of numbers.
+
+List<Integer> myList = Arrays.asList(10,15,8,49,25,98,32);
+1. find all the number starts with '1'.
+2. find ist element using stream.
+3. find total number of element present.
+
+
+
+
+  
